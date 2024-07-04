@@ -1,29 +1,32 @@
 import React, { useState, useEffect } from 'react';
-
+import annual from "./assets/annual.png"
+import tech from "./assets/tech_feast.jpg"
+import cultural from "./assets/cultural.jpg"
+import science from "./assets/science.jpg"
 const eventsList = [
   {
     id: 1,
     event: "Tech Fest 2024",
     description: "A grand event showcasing the latest in technology.",
-    image: "/src/assets/tech_feast.jpg"
+    image: tech
   },
   {
     id: 2,
     event: "Annual Sports Day",
     description: "A day filled with exciting sports activities.",
-    image: "/src/assets/annual.png"
+    image: annual
   },
   {
     id: 3,
     event: "Cultural Fest",
     description: "Celebrating diverse cultures with music and dance.",
-    image: "/src/assets/cultural.jpg"
+    image: cultural
   },
   {
     id: 4,
     event: "Science Fair",
     description: "Showcasing innovative science projects by students.",
-    image: "src/assets/science.jpg"
+    image: science
   }
 ];
 
